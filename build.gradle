@@ -23,7 +23,7 @@ compileGroovy {
 
 uploadArchives {
     repositories.mavenDeployer {
-//        repository(url: "http://10.163.160.203:8080/nexus/content/repositories/releases/") {
+//        repository(url: "http://10.XXX.XXX.XXX:8080/nexus/content/repositories/releases/") {
 //            authentication(userName: "admin", password: "admin123")
 //        }
         repository(url: 'file:release/libs')
